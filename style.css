@@ -1,0 +1,109 @@
+/* ============================= */
+/*        BASE STYLES            */
+/* ============================= */
+
+/* Body Styles - font, background, colors, spacing */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+  }
+  
+  /* Header Styles */
+  header {
+    border-bottom: 3px solid #007aac;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin-bottom: 0;
+    color: #007acc;
+  }
+  
+  header p {
+    margin: 4px 0;
+  }
+  
+  /* ============================= */
+  /*       TYPOGRAPHY & TEXT       */
+  /* ============================= */
+  
+  /* Section spacing */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Main section titles */
+  h2 {
+    color: #005a9e;
+    border-bottom: 2px solid #007aac;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+  }
+  
+  /* Subsection titles (job titles, schools, etc.) */
+  h3 {
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  /* Paragraph styling inside sections */
+  section p {
+    margin-bottom: 12px;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  
+  /* Strong text emphasis */
+  strong {
+    color: #007acc;
+    font-weight: 600;
+  }
+  
+  /* ============================= */
+  /*           LINKS               */
+  /* ============================= */
+  
+  /* Default link styles */
+  a {
+    color: #007acc;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Links inside sections */
+  section a {
+    color: #005a9e;
+  }
+  
+  /* Link hover effect */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header-specific links */
+  header a {
+    color: #005a9e;
+    text-decoration: underline;
+  }
+  
+  header a:hover {
+    color: #007acc;
+  }
+  
+  /* ============================= */
+  /*          RESPONSIVE           */
+  /* ============================= */
+  
+  @media (max-width: 600px) {
+    body {
+      padding: 0 10px;
+    }
+  }
+  
